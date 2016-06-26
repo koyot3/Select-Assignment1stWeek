@@ -59,8 +59,8 @@ public class QuickBetterThanMergeCase : XCTestCase {
     }
     
     func test() {
-        let list: [Int] = [ 8, 0, 3, 9, 2, 14, 10, 27, 1, 5, 8, -1, 26 ]
-        XCTAssertEqual(sortMethod(list), [-1, 0, 1, 2, 3, 5, 8, 8, 9, 10, 14, 26, 27])
+        let list: [Int] = [ 8,8,8,8,8,8,8,8,8,8,8,8,8,8,8 ]
+        XCTAssertEqual(sortMethod(list), [8,8,8,8,8,8,8,8,8,8,8,8,8,8,8])
     }
 }
 
